@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "Dona 3D - Empresa de impresion 3D",
     description:
       "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
     image: "/bible.webp",
