@@ -10,7 +10,7 @@ export function ContactSection() {
         <BlurBackground />
         <AnimateEnter className="flex flex-col items-center" delay={0.2}>
           <h1 className="font-geist text-gradient mx-auto max-w-[32rem] text-center text-4xl font-semibold leading-[2.5rem] xl:leading-[3.8rem] tracking-tight xl:text-[54px]">
-          Contáctame. Empieza a construir.
+          Contáctame. Empeza a construir.
           </h1>
         </AnimateEnter>
         <AnimateEnter

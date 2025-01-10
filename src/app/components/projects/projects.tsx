@@ -20,12 +20,45 @@ const projects = [
       preview: "https://la-biblia.vercel.app/",
     },
   },
+
   {
     id: 2,
-    title: "Dona 3D - Empresa de impresion 3D",
+    title: "Resources Dev - Recursos para desarrolladores",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    image: "/bible.webp",
+      "Es un sitio web de recursos para desarrolladores, la página tiene recursos desde Frontend hasta Backend y Testing, también cuenta con recursos de Visual Studio Code.",
+    image: "/resources.webp",
+    alt: "Recién llegado vs 5 años en Nueva Zelanda",
+    tags: [
+      { Icon: Icons.nextjs, label: "Next.js" },
+      { Icon: Icons.tailwind, label: "tailwindcss" },
+    ],
+    links: {
+      code: "https://github.com/francoogilli/bible",
+      preview: "https://la-biblia.vercel.app/",
+    },
+  },
+  {
+    id: 3,
+    title: "Weather App - Pronóstico del clima detallado.",
+    description:
+      "La aplicación del tiempo ofrece información actualizada sobre el clima con pronósticos detallados y destacados del día. También cuenta con un pronóstico para el semanal.",
+    image: "/weather.webp",
+    alt: "Recién llegado vs 5 años en Nueva Zelanda",
+    tags: [
+      { Icon: Icons.nextjs, label: "Next.js" },
+      { Icon: Icons.tailwind, label: "tailwindcss" },
+    ],
+    links: {
+      code: "https://github.com/francoogilli/bible",
+      preview: "https://la-biblia.vercel.app/",
+    },
+  },
+  {
+    id: 4,
+    title: "Dona 3D - Sitio para empresa de impresion 3D",
+    description:
+      "Sitio web para una empresa de Impresion 3D, a su vez el sitio cuenta con una landing page. Tambien cuenta con una galeria de los productos que ofrece la empresa.",
+    image: "/dona.webp",
     alt: "Recién llegado vs 5 años en Nueva Zelanda",
     tags: [
       { Icon: Icons.nextjs, label: "Next.js" },
@@ -56,7 +89,7 @@ export function ProjectsSection() {
         />
         <div className="flex flex-col items-center justify-center gap-12">
           <AnimateEnter delay={0.6}>
-            <h1 className="font-geist flex items-center gap-4 mx-auto max-w-2xl text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#efefef] to-[#afaeae] leading-tight tracking-tight md:text-5xl">
+            <h1 className="font-geist flex items-center gap-4 pb-4 mx-auto max-w-2xl text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#efefef] to-[#afaeae] leading-tight tracking-tight md:text-5xl">
               <Icons.fold className="size-10 text-[#e1e1e1]" />
               Proyectos
             </h1>
@@ -65,7 +98,7 @@ export function ProjectsSection() {
             {projects.map((project) => (
               <article
                 key={project.id}
-                className="flex flex-col mb-20 space-x-0 max-w-4xl space-y-8 md:flex-row md:space-x-8 md:space-y-0"
+                className="flex flex-col mb-24 space-x-0 max-w-4xl space-y-8 md:flex-row md:space-x-8 md:space-y-0"
               >
                 <div className="w-full md:w-1/2 group">
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-[14px] md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-[#292929] lg:hover:border-[#363636] lg:hover:bg-gray-800/50">

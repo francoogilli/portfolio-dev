@@ -25,7 +25,7 @@ export default function HeroContent() {
       <AnimateEnter delay={0.1}>
         <TextAnimateEnter
           text={`Mi nombre es Franco Gilli, vivo en San Francisco, Córdoba, Argentina. Frontend developer. Especializado en interfaces modernas y funcionales.`}
-          className="font-geist text-lg text-[#d3d3d3]"
+          className="font-geist text-lg text-[#bebebe]"
           containerClassName="max-w-2xl mx-auto"
           duration={0.6}
         />
