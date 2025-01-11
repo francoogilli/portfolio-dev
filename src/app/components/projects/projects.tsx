@@ -33,8 +33,8 @@ const projects = [
       { Icon: Icons.tailwind, label: "tailwindcss" },
     ],
     links: {
-      code: "https://github.com/francoogilli/bible",
-      preview: "https://la-biblia.vercel.app/",
+      code: "https://github.com/francoogilli/devresources",
+      preview: "https://resourcesdev.vercel.app/",
     },
   },
   {
@@ -49,8 +49,8 @@ const projects = [
       { Icon: Icons.tailwind, label: "tailwindcss" },
     ],
     links: {
-      code: "https://github.com/francoogilli/bible",
-      preview: "https://la-biblia.vercel.app/",
+      code: "https://github.com/francoogilli/weather",
+      preview: "https://cleansky.vercel.app/",
     },
   },
   {
@@ -65,8 +65,8 @@ const projects = [
       { Icon: Icons.tailwind, label: "tailwindcss" },
     ],
     links: {
-      code: "https://github.com/francoogilli/bible",
-      preview: "https://la-biblia.vercel.app/",
+      code: "https://github.com/francoogilli/dona3d",
+      preview: "https://dona3d.vercel.app/",
     },
   },
 ];

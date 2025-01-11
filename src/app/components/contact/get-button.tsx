@@ -4,7 +4,7 @@ import Link from "next/link";
 export function GetButton() {
   return (
     <Link
-      href="/ui/installation"
+      href="mailto:francogilli10@gmail.com"
       className="group relative text-[#e1e1e1] inline-flex items-center gap-1 rounded-xl px-4 py-2.5 text-sm font-semibold duration-300 bg-neutral-800 hover:bg-neutral-900 hover:text-primary"
     >
       <TextGlitch text="Contáctame" />

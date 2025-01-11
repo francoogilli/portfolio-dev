@@ -27,13 +27,12 @@ export function Footer() {
           <AnimateEnter delay={0.3} className="space-y-4">
             <div className="font-geist flex flex-col gap-4 text-base">
               <Link
-                href="/ui"
+                href="#"
                 className="text-foreground duration-200 hover:text-primary"
               >
                 Inicio
               </Link>
               <a
-                href="https://github.com/guhrodrrigues/luxe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-1 text-foreground duration-200 hover:text-primary"
@@ -42,7 +41,6 @@ export function Footer() {
                 <Icons.arrowUp className="size-3 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
-                href="https://github.com/guhrodrrigues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-1 text-foreground duration-200 hover:text-primary"
@@ -51,7 +49,6 @@ export function Footer() {
                 <Icons.arrowUp className="size-3 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
-                href="https://twitter.com/guhrodrrigues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-1 text-foreground duration-200 hover:text-primary"

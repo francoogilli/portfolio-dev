@@ -18,7 +18,7 @@ export function ContactSection() {
           delay={0.2}
         >
           <GetButton />
-          <ButtonGlitchBrightness href="/ui" text="LinkedIn" Icon={Icons.linkedin} />
+          <ButtonGlitchBrightness href="https://www.linkedin.com/in/franco-gilli/" text="LinkedIn" Icon={Icons.linkedin} />
         </AnimateEnter>
       </div>
     </section>

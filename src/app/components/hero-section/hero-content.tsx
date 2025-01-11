@@ -34,9 +34,9 @@ export default function HeroContent() {
         className="flex flex-wrap items-center justify-center gap-2"
         delay={0.5}
       >
-        <ButtonGlitchBrightness href="/ui/installation" text="Contactar" Icon={Icons.github} />
+        <ButtonGlitchBrightness href="https://www.linkedin.com/in/franco-gilli/" text="LinkedIn" Icon={Icons.linkedin} />
         <a
-          href="https://github.com/guhrodrrigues/luxe"
+          href="https://github.com/francoogilli/"
           target="_blank"
           rel="noopener noreferrer"
           className="font-geist flex items-center gap-1.5 rounded-xl border border-border bg-background px-4 py-2 text-base font-semibold text-secondary duration-300 hover:bg-neutral-900"
