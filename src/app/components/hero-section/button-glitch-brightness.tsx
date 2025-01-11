@@ -15,7 +15,7 @@ export function ButtonGlitchBrightness({
     <Link
       href={href}
       target="_blank"
-      className="font-geist group relative inline-flex items-center gap-1 text-base py-2 px-4 font-semibold bg-primary/80 text-black rounded-xl duration-300 overflow-hidden hover:bg-primary"
+      className="font-geist group relative inline-flex items-center gap-1 text-base py-2 px-4 font-semibold bg-primary/80 text-black rounded-[10px] duration-300 overflow-hidden hover:bg-primary"
     >
       <Icon className="size-4" />
       <TextGlitch text={text} />

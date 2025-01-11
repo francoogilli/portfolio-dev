@@ -39,7 +39,7 @@ export default function HeroContent() {
           href="https://github.com/francoogilli/"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-geist flex items-center gap-1.5 rounded-xl border border-border bg-background px-4 py-2 text-base font-semibold text-secondary duration-300 hover:bg-neutral-900"
+          className="font-geist flex items-center gap-1.5 rounded-[10px] border border-border bg-background px-4 py-2 text-base font-semibold text-secondary duration-300 hover:bg-neutral-900"
         >
           <Icons.github className="h-3.5 w-3.5" />
           Github
