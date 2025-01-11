@@ -45,7 +45,7 @@ const projects = [
     image: "/weather.webp",
     alt: "Recién llegado vs 5 años en Nueva Zelanda",
     tags: [
-      { Icon: Icons.nextjs, label: "Next.js" },
+      { Icon: Icons.react, label: "React.js" },
       { Icon: Icons.tailwind, label: "tailwindcss" },
     ],
     links: {
